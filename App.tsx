@@ -63,7 +63,7 @@ const App = () => {
           />
         }>
         <WebView
-          source={{uri: "https://rahatshop.az"}}
+          source={{uri: "https://bursaemlak.az"}}
           onLoadProgress={event => setCanGoBack(event.nativeEvent.canGoBack)}
           ref={webViewRef}
           originWhitelist={['*']}
