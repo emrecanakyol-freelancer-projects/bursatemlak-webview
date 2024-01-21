@@ -73,16 +73,16 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.bursaemlak"
+    namespace "com.bursatemlak"
     defaultConfig {
-        applicationId "com.bursaemlak"
+        applicationId "com.bursatemlak"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 100
         versionName "1.0.0"
     }
     signingConfigs {
-        release {
+         release {
             if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
                 storeFile file(MYAPP_UPLOAD_STORE_FILE)
                 storePassword MYAPP_UPLOAD_STORE_PASSWORD

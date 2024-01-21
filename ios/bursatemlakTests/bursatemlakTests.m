@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface bursaemlakTests : XCTestCase
+@interface bursatemlakTests : XCTestCase
 
 @end
 
-@implementation bursaemlakTests
+@implementation bursatemlakTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

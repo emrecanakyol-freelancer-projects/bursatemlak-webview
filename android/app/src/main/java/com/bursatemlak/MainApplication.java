@@ -1,4 +1,4 @@
-package com.bursaemlak;
+package com.bursatemlak;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
