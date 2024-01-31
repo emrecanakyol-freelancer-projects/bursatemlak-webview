@@ -15,9 +15,9 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>NSCameraUsageDescription</key>
-    <string>Uygulama kameranızı kullanmak istiyor.</string>
+	<string>Etkileşimli fotoğraf paylaşımı ve profil resmi güncellemeleri için kameranıza erişim istemektedir. Kamera izni, doğrudan uygulamamız içinde fotoğraf çekmek amacıyla kullanılacaktır.</string>
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>Uygulama fotoğraflarınıza erişmek istiyor.</string>
+	<string>Etkileşimli fotoğraf paylaşımı ve profil resmi güncellemeleri için fotoğraflarınıza erişim istemektedir. Fotoğraf erişim izni, doğrudan uygulamamız içinde fotoğraf seçmek ve yüklemek amacıyla kullanılacaktır.</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
